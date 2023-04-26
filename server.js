@@ -48,7 +48,7 @@ const characters = {
 }
 
 
-app.get('/', (response, request)=>{
+app.get('/', (request, response)=>{
     response.sendFile(__dirname + '/index.html')
 })
 
