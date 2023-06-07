@@ -7,7 +7,7 @@ app.use(cors())
 
 const characters = {
     'tanjiro': {
-        'fullName': 'Tanjiro Kamaso',
+        'fullName': 'Tanjiro Kamado',
         'race': 'human',
         'affiliation': 'Demon Slayer Corps',
         'combatStyle': 'Water Breathing and Sun Breathing'
