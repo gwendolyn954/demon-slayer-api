@@ -118,6 +118,7 @@ const characters = [
 
 ]
 
-//makes this accessible outside of this code file
-exports.characters = characters;
+//makes this accessible outside of this code file; updated to ES
+const _characters = characters;
+export { _characters as characters };
 
