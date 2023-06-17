@@ -38,7 +38,7 @@ function renderResults(results) {
       li.classList.add('character-data');
       li.innerHTML = `
         <span>Name: ${character.name}</span>
-        <span>Identity: ${character.identity}</span>
+        <span>Race: ${character.race}</span>
         <span>Affiliation: ${character.affiliation}</span>
         <span>Fighting Style: ${character.fightingStyle}</span>
       `;
