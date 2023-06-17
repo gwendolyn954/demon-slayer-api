@@ -1,68 +1,40 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const PORT = 8000
+const {characters} = require('./characters')
+const PORT = process.env.PORT || 8000;
 
+app.set('view engine', 'ejs')
 app.use(cors())
+app.use(express.static('public'))
 
-const characters = {
-    'tanjiro': {
-        'fullName': 'Tanjiro Kamado',
-        'race': 'human',
-        'affiliation': 'Demon Slayer Corps',
-        'combatStyle': 'Water Breathing and Sun Breathing'
-    },
 
-    'nezuko': {
-        'fullName': 'Nezuko Kamado',
-        'race': 'demon',
-        'affiliation': 'Demon Slayer Corps (formerly)',
-        'combatStyle': 'Blood Demon Art'
-    },
 
-    'zenitsu': {
-        'fullName': 'Zenitsu Agatsuma',
-        'race': 'human',
-        'affiliation': 'Demon Slayer Corps',
-        'combatStyle': 'Thunder Breathing'
-    },
-
-    'inosuke': {
-        'fullName': 'Inosuke Hashibira',
-        'race': 'human',
-        'affiliation': 'Demon Slayer Corps',
-        'combatStyle': 'Beast Breathing'
-    },
-
-    'muzan': {
-        'fullName': 'Muzan Kibutsuji',
-        'race': 'demon',
-        'affiliation': 'Twelve Kizuki',
-        'combatStyle': 'none'
-    },
-
-    'unknown': {
-        'fullName': 'unknown',
-        'race': 'unknown',
-        'affiliation': 'unknown',
-        'combatStyle': 'unknown'
+app.get('/', (req, res) => {
+    res.render('index', { characters: [] }); // Render empty character list initially
+  });
+  
+  app.get('/api', (req, res) => {
+    res.json(characters);
+  });
+  
+  app.get('/api/:keyword', (req, res) => {
+    const keyword = req.params.keyword.toLowerCase();
+  
+    // Filter through characters.js & pull items that match the keyword
+    const results = characters.filter(obj =>
+      obj.keywords.some(str => str.toLowerCase().includes(keyword))
+    );
+  
+    if (results.length) {
+      res.json(results);
+    } else {
+      res.status(404).json({
+        error: 'No characters found.'
+      });
     }
-}
-
-
-app.get('/', (request, response)=>{
-    response.sendFile(__dirname + '/index.html')
-})
-
-app.get('/api/:name', (request, response)=>{
-    const characterName = request.params.name.toLowerCase()
-    if(characters[characterName]){
-        response.json(characters[characterName])
-    }else {
-        response.json(characters['unknown'])
-    }
-})
-
-app.listen(process.env.PORT || PORT,()=>{
-    console.log(`Server is running like a boss on port ${PORT}!🚀`)
-})
+  });
+  
+  app.listen(PORT, () => {
+    console.log(`Server is running like a boss!🚀`);
+  });
