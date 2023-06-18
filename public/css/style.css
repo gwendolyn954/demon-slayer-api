@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .container {
+    background-color: rgb(224, 223, 222);
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    height: 100%;
+}
+
+h1 {
+    padding-left: 15px;
+}
+
+main, section {
+    padding: 0 30px;
+}
+
+h2 {
+    padding-top: 15px;
+}
+
+
+
+img {
+    height: 85px;
+    width: 85px;
+}
+
+
+

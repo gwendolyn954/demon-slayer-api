@@ -5,19 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demon Slayer API</title>
+
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <h1>Demon Slayer API</h1>
-    <h2>Documentation Coming Soon!</h2>
-    <p>Access API here: https://demon-slayer.cyclic.app</p>
+    <nav class="navbar">
+        <div class="container">
+            <div><img src="/assets/logo.png" alt="Demon Slayer Logo"></div>
+            <div><h1>DEMON SLAYER API</h1></div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Built for developers (and fans), the Demon Slayer API serves facts about Demon Slayer characters.</h2>
+            <p>Access API here: https://demon-slayer.cyclic.app</p>
+        </div>
+    </main>
+    <section class="container">
+        <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
+        <button id="search-btn" type="button">Enter</button>
+    
+        <div class="result">
+            <ul id="character-list"></ul>
+        </div>
 
+    </section>
 
-    <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
-    <button id="search-btn" type="button">Enter</button>
-
-    <div class="result">
-        <ul id="character-list"></ul>
-    </div>
 
 
     <script src="js/main.js"></script>
