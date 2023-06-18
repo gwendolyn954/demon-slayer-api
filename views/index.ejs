@@ -7,21 +7,43 @@
     <title>Demon Slayer API</title>
 
     <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <nav class="navbar">
         <div class="container">
-            <div><img src="/assets/logo.png" alt="Demon Slayer Logo"></div>
+            <div><img id="ds-logo" src="/assets/logo.png" alt="Demon Slayer Logo"></div>
             <div><h1>DEMON SLAYER API</h1></div>
         </div>
     </nav>
+
+
     <main>
         <div class="container">
-            <h2>Built for developers (and fans), the Demon Slayer API serves facts about Demon Slayer characters.</h2>
-            <p>Access API here: https://demon-slayer.cyclic.app</p>
-        </div>
+            <div>
+                <h2>SERVING DEMON SLAYER CHARACTER FACTS</h3>
+                <h3>Built for developers (and fans), the Demon Slayer API provides access to a collection of character facts and information from the popular anime and manga series, Demon Slayer.</h2>
+            </div>
+            <div>
+                <img id="siblings" src="assets/tanjiro-nezuko.png" alt="Tanjiro carrying Nezuko in her basket on his back.">
+            </div>
+        </div>    
     </main>
+
+    <!-- API endpoints (2; home + character name input) -->
+    <section id="endpoints" class="container">
+        <h3 id="api-endpoints">API Endpoints</h3>
+        <p>To search all available characters, use home route:</p>
+        <pre><code>GET https://demon-slayer.cyclic.app/api/</code></pre>
+
+
+    </section>
+
+<!-- Try it out section -->
     <section class="container">
         <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
         <button id="search-btn" type="button">Enter</button>

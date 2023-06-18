@@ -40,7 +40,7 @@ function renderResults(results) {
         <span>Name: ${character.name}</span>
         <span>Race: ${character.race}</span>
         <span>Affiliation: ${character.affiliation}</span>
-        <span>Fighting Style: ${character.fightingStyle}</span>
+        <span>Skill: ${character.skill}</span>
       `;
       characterList.appendChild(li);
     });

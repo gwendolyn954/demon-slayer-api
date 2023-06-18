@@ -3,7 +3,7 @@ const characters = [
         name: 'Tanjiro Kamado',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'Water Breathing and Sun Breathing',
+        skill: 'Water Breathing and Sun Breathing',
         keywords: ['tanjiro', 'kamado'],
 
     },
@@ -12,7 +12,7 @@ const characters = [
         name: 'Nezuko Kamado',
         race: 'Demon',
         affiliation: 'Demon Slayer Corps (formerly)',
-        fightingStyle: 'Blood Demon Art',
+        skill: 'Blood Demon Art',
         keywords: ['nezuko', 'kamado'],
 
     },
@@ -21,7 +21,7 @@ const characters = [
         name: 'Zenitsu Agatsuma',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'Thunder Breathing',
+        skill: 'Thunder Breathing',
         keywords: ['zenitsu', 'agatsuma'],
 
     },
@@ -30,7 +30,7 @@ const characters = [
         name: 'Inosuke Hashibira',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'Beast Breathing',
+        skill: 'Beast Breathing',
         keywords: ['inosuke', 'hashibira'],
 
     },
@@ -39,7 +39,7 @@ const characters = [
         name: 'Muzan Kibutsuji',
         race: 'Demon',
         affiliation: 'Twelve Kizuki',
-        fightingStyle: 'Whip Proficiency, Blood Demon Art',
+        skill: 'Whip Proficiency, Blood Demon Art',
         keywords: ['muzan', 'kibutsuji'],
 
     },
@@ -48,7 +48,7 @@ const characters = [
         name: 'Kanae Kocho',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'Flower Breathing',
+        skill: 'Flower Breathing',
         keywords: ['kanae', 'kocho'],
 
     },
@@ -57,7 +57,7 @@ const characters = [
         name: 'Kanao Tsuyuri',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'Flower Breathing',
+        skill: 'Flower Breathing',
         keywords: ['kanao', 'tsuyuri'],
 
     },
@@ -66,7 +66,7 @@ const characters = [
         name: 'Kagaya Ubuyashiki',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'none',
+        skill: 'none',
         keywords: ['kagaya', 'ubuyashiki'],
 
     },
@@ -75,7 +75,7 @@ const characters = [
         name: 'Kyojuro Rengoku',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'Flame Breathing',
+        skill: 'Flame Breathing',
         keywords: ['kyojuro', 'rengoku'],
 
     },
@@ -84,7 +84,7 @@ const characters = [
         name: 'Giyu Tomioka',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'Water Breathing',
+        skill: 'Water Breathing',
         keywords: ['giyu', 'tomioka'],
 
     },
@@ -93,7 +93,7 @@ const characters = [
         name: 'Shinobu Kocho',
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'Insect Breathing',
+        skill: 'Insect Breathing',
         keywords: ['shinobu', 'kocho'],
 
     },
@@ -102,7 +102,7 @@ const characters = [
         name: 'Tamayo',
         race: 'Demon',
         affiliation: 'Demon Slayer Corps',
-        fightingStyle: 'none',
+        skill: 'none',
         keywords: ['tamayo'],
 
     },
@@ -111,7 +111,7 @@ const characters = [
         name: 'Rui',
         race: 'Demon',
         affiliation: 'Twelve Kizuki, Spider Family',
-        fightingStyle: 'Blood Demon Art',
+        skill: 'Blood Demon Art',
         keywords: ['rui'],
 
     },  

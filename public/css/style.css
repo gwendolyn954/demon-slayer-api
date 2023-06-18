@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Courier Prime', monospace;
+}
+
+/*nav - image - text logo */
+
 .navbar .container {
     background-color: rgb(224, 223, 222);
     display: flex;
@@ -12,24 +18,73 @@
     height: 100%;
 }
 
+#ds-logo {
+    height: 85px;
+    width: 85px;
+}
+
 h1 {
+    font-size: 40px;
     padding-left: 15px;
 }
+
+
+/* main & section */
 
 main, section {
     padding: 0 30px;
 }
 
+/* main */
+
+main {
+    margin-top: 50px;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 30px;
+}
+
+main .container h2, h3 {
+    padding-right: 60px;
+}
+
 h2 {
-    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+#siblings {
+    height: 400px;
+    width: 400px;
+}
+#endpoints {
+    margin-top: 40px;
+}
+
+#api-endpoints {
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+code {
+    font-size: 18px;
 }
 
 
 
-img {
-    height: 85px;
-    width: 85px;
-}
+
 
 
 
