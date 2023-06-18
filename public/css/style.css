@@ -60,6 +60,7 @@ h2 {
 
 h3 {
     font-size: 24px;
+    padding-bottom: 15px;
 }
 
 #siblings {
@@ -70,16 +71,27 @@ h3 {
     margin-top: 40px;
 }
 
-#api-endpoints {
-    font-size: 24px;
+#endpoints h3 {
+    font-size: 30px;
+    color: red;
+}
+
+#api-endpoint-1 {
+    margin-bottom: 35px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
+    margin-bottom: 15px;
 }
 
 code {
     font-size: 18px;
+}
+
+
+#example {
+    margin-top: 80px;
 }
 
 

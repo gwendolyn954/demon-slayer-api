@@ -36,15 +36,24 @@
 
     <!-- API endpoints (2; home + character name input) -->
     <section id="endpoints" class="container">
-        <h3 id="api-endpoints">API Endpoints</h3>
-        <p>To search all available characters, use home route:</p>
-        <pre><code>GET https://demon-slayer.cyclic.app/api/</code></pre>
+        <div id="api-endpoint-1">
+            <h3>API Endpoint: Get All Data</h3>
+            <p>Serves all available characters by home route:</p>
+            <pre><code>GET https://demon-slayer.cyclic.app/api/</code></pre>  
+        </div>
+        <div id="api-endpoint-2">
+            <h3>API Endpoint: By Character Name</h3>
+            <p>Serves specific character data; takes in keyword property key (character first or last name):</p>
+            <pre><code>GET https://demon-slayer.cyclic.app/api/keyword</code></pre>
+        </div>
+        
 
 
     </section>
 
 <!-- Try it out section -->
-    <section class="container">
+    <section id="example" ="container">
+        <h3>Example:</h3>
         <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
         <button id="search-btn" type="button">Enter</button>
     
