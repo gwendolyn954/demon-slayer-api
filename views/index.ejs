@@ -12,8 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
 </head>
-
 <body>
+
+    <!-- nav bar -->
     <nav class="navbar">
         <div class="container">
             <div><img id="ds-logo" src="/assets/logo.png" alt="Demon Slayer Logo"></div>
@@ -21,12 +22,12 @@
         </div>
     </nav>
 
-
+    <!-- main -->
     <main>
         <div class="container">
             <div>
-                <h2>SERVING DEMON SLAYER CHARACTER FACTS</h3>
-                <h3>Built for developers (and fans), the Demon Slayer API provides access to a collection of character facts and information from the popular anime and manga series, Demon Slayer.</h2>
+                <h2 id="main-header" >SERVING DEMON SLAYER CHARACTER FACTS</h3>
+                <h3 id="main-content">Built for developers (and fans), the Demon Slayer API provides access to a collection of character facts from the popular anime and manga series, Demon Slayer: Kimetsu no Yaiba.</h2>
             </div>
             <div>
                 <img id="siblings" src="assets/tanjiro-nezuko.png" alt="Tanjiro carrying Nezuko in her basket on his back.">
@@ -34,17 +35,21 @@
         </div>    
     </main>
 
-    <!-- API endpoints (2; home + character name input) -->
-    <section id="endpoints" class="container">
+    <!-- Documentation -->
+    <section id="documentation" class="container">
+        <h2>Documentation</h2>
+        <p>Example of the Demon Slayer API character object.</p>
+        <img src="/assets/ds-property.png" alt="">
+        <h3>Endpoints</h3>
         <div id="api-endpoint-1">
-            <h3>API Endpoint: Get All Data</h3>
-            <p>Serves all available characters by home route:</p>
+            <h4>Base URL</h4>
             <pre><code>GET https://demon-slayer.cyclic.app/api/</code></pre>  
+            <p>Serves all character data</p>
         </div>
         <div id="api-endpoint-2">
-            <h3>API Endpoint: By Character Name</h3>
-            <p>Serves specific character data; takes in keyword property key (character first or last name):</p>
+            <h4>/keyword</h4>
             <pre><code>GET https://demon-slayer.cyclic.app/api/keyword</code></pre>
+            <p>Serves specific character data. Accepts keyword property key (character first or last name)</p>
         </div>
         
 

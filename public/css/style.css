@@ -53,41 +53,67 @@ main .container h2, h3 {
     padding-right: 60px;
 }
 
-h2 {
+#main-header {
     padding-bottom: 15px;
     font-size: 30px;
 }
 
-h3 {
-    font-size: 24px;
+#main-content {
     padding-bottom: 15px;
+    font-size: 24px;
 }
 
+/* Tanjiro & Nezuko Image */
 #siblings {
     height: 400px;
     width: 400px;
 }
-#endpoints {
-    margin-top: 40px;
+
+/* Documentation Section */
+
+#documentation {
+    padding-top: 40px;
 }
 
-#endpoints h3 {
+#documentation h2 {
     font-size: 30px;
-    color: red;
+    padding-bottom: 20px;
+    color: #fb5557;
 }
 
-#api-endpoint-1 {
+#documentation p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#documentation img {
+    width: 600px;
+    height: 275px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+#documentation h3 {
+    font-size: 28px;
+    color: #fb5557;
+    padding-bottom: 20px;
+}
+
+#documentation h4 {
+    font-size: 26px;
+}
+
+#api-endpoint-1, #api-endpoint-2 {
     margin-bottom: 35px;
+    line-height: 2;
 }
 
-p {
-    font-size: 18px;
-    margin-bottom: 15px;
-}
 
 code {
     font-size: 18px;
 }
+
+
 
 
 #example {
