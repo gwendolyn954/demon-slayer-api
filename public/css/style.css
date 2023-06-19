@@ -77,7 +77,7 @@ main .container h2, h3 {
 
 #documentation h2 {
     font-size: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     color: #fb5557;
 }
 
@@ -96,7 +96,7 @@ main .container h2, h3 {
 #documentation h3 {
     font-size: 28px;
     color: #fb5557;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #documentation h4 {
@@ -104,21 +104,89 @@ main .container h2, h3 {
 }
 
 #api-endpoint-1, #api-endpoint-2 {
-    margin-bottom: 35px;
-    line-height: 2;
+    line-height: 1.8;
 }
-
 
 code {
     font-size: 18px;
 }
 
-
-
-
-#example {
-    margin-top: 80px;
+#documentation #authentication {
+    padding-bottom: 20px;
 }
+
+/* Demo/Results Section */
+
+#demo {
+    margin-top: 20px;
+    margin-bottom: 70px;  
+}
+
+#demo h3 {
+    font-size: 28px;
+    color: #fb5557;
+}
+
+#demo h4 {
+    font-size: 20px;
+}
+
+#demo .result {
+    padding: 20px;
+}
+
+input {
+    width: 175px;
+    height: 25px;
+    border: none;
+    background-color: #dad8d59c;
+    
+   
+}
+
+button {
+    width: 50px;
+    height: 25px;
+    margin: -9px;
+    border: none;
+    background-color: black;
+    color: #fb5557;
+    
+
+}
+
+.result ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* footer */
+
+footer {
+    background-color: #e0dfde;;
+    color: black;
+    height: 180px;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer #footer-header {
+    padding-top: 45px;
+    font-size: 40px;
+}
+
+footer p {
+    text-align: center;
+}
+
+#socials {
+    margin: 10px;
+}
+
+
 
 
 

@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/36aa95581e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -30,7 +31,7 @@
                 <h3 id="main-content">Built for developers (and fans), the Demon Slayer API provides access to a collection of character facts from the popular anime and manga series, Demon Slayer: Kimetsu no Yaiba.</h2>
             </div>
             <div>
-                <img id="siblings" src="assets/tanjiro-nezuko.png" alt="Tanjiro carrying Nezuko in her basket on his back.">
+                <img id="siblings" src="assets/tanjiro-nezuko.png" alt="An anime character Tanjiro, carrying his sister Nezuko in her basket on his back.">
             </div>
         </div>    
     </main>
@@ -38,37 +39,43 @@
     <!-- Documentation -->
     <section id="documentation" class="container">
         <h2>Documentation</h2>
-        <p>Example of the Demon Slayer API character object.</p>
+        <p> Each character object provides 5 properties/keys containing the Demon Slayer character name, race, affiliation, skill, and keywords. <br><br> Example of a Demon Slayer API character object.</p>
         <img src="/assets/ds-property.png" alt="">
         <h3>Endpoints</h3>
         <div id="api-endpoint-1">
             <h4>Base URL</h4>
             <pre><code>GET https://demon-slayer.cyclic.app/api/</code></pre>  
-            <p>Serves all character data</p>
+            <p>Serves all character data.</p>
         </div>
         <div id="api-endpoint-2">
             <h4>/keyword</h4>
             <pre><code>GET https://demon-slayer.cyclic.app/api/keyword</code></pre>
-            <p>Serves specific character data. Accepts keyword property key (character first or last name)</p>
+            <p>Serves specific character data. Accepts keyword property key (character first or last name).</p>
         </div>
-        
-
-
+        <h3 id="authentication">Authentication</h3>
+        <p>To access the Demon Slayer API, no authentication or API key is required. The API is publicly accessible for fetching character information.</p>
     </section>
 
 <!-- Try it out section -->
-    <section id="example" ="container">
-        <h3>Example:</h3>
+    <section id="demo" class="container">
+        <h3>Demo:</h3>
+        <h4>Enter Your Favorite Demon Slayer Character Name!</h4>
         <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
         <button id="search-btn" type="button">Enter</button>
     
         <div class="result">
             <ul id="character-list"></ul>
         </div>
-
     </section>
 
-
+    <!-- footer -->
+   <footer>
+        <p id="footer-header" >DEMON SLAYER API</p>
+        <p>Thanks for checking out the Demon Slayer API!</p>
+        <div id="socials">
+            <a href="https://github.com/gwendolyn954/demon-slayer-api"><i class="fa-brands fa-github fa-xl" style="color: #000000;"></i></a>
+        </div>
+   </footer>
 
     <script src="js/main.js"></script>
 </body>
