@@ -20,7 +20,6 @@ Serves all character data
 
 ```
 GET https://demon-slayer.cyclic.app/api/
-
 ```
 
 ### /keyword
