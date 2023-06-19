@@ -1,6 +1,6 @@
 # Demon Slayer API
 
-![Project Screenshot](https://github.com/gwendolyn954/merida-sky-gazers/blob/main/img/Sky%20Gazers%20SS.png)
+![Project Screenshot](https://github.com/gwendolyn954/demon-slayer-api/blob/main/public/assets/Screenshot%202023-06-19%20at%201.44.40%20AM.png)
 
 ## Overview:
 
