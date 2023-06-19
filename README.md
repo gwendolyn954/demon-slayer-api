@@ -13,7 +13,23 @@ Express, Node.js, JavaScript, CSS, EJS
 Check out the Demon Slayer API documentation at https://demon-slayer.cyclic.app.
 
 ## How To Use
-Access the endpoints to retrieve character data (JSON).  
+The API provides the following endpoints to retrieve character facts:
+
+### Base URL
+Serves all character data
+
+```
+GET https://demon-slayer.cyclic.app/api/
+
+```
+
+### /keyword
+Serves specific character data. Accepts keyword property key (character first or last name).
+
+```
+GET https://demon-slayer.cyclic.app/api/keyword
+```
+
 
 ## Working On:
 
