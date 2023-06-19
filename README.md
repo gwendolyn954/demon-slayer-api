@@ -10,7 +10,7 @@ The Demon Slayer API allows you to retrieve various details about the characters
 Express, Node.js, JavaScript, CSS, EJS
 
 ## Get Started
-Check out the Demon Slayer API documentation at **https://demon-slayer.cyclic.app.
+Check out the Demon Slayer API documentation at https://demon-slayer.cyclic.app.
 
 ## How To Use
 Access the endpoints to retrieve character data (JSON).  
