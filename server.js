@@ -36,5 +36,7 @@ app.get('/', (req, res) => {
   });
   
   app.listen(PORT, () => {
-    console.log(`Server is running like a boss!🚀`);
+    console.log(`Server is running like a boss! 🚀`);
   });
+
+  

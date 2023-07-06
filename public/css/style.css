@@ -139,9 +139,7 @@ input {
     width: 175px;
     height: 25px;
     border: none;
-    background-color: #dad8d59c;
-    
-   
+    background-color: #dad8d59c; 
 }
 
 button {
@@ -151,15 +149,12 @@ button {
     border: none;
     background-color: black;
     color: #fb5557;
-    
-
 }
 
 .result ul li {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    
 }
 
 
