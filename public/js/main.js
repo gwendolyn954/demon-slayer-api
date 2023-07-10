@@ -47,6 +47,7 @@ function renderResults(results) {
   } else {
     const li = document.createElement('li');
     li.classList.add('character-data');
+    li.innerHTML = `<span> No character found. (Psst! Error could totally be on us but we're adding characters everyday!)</span>`
     li.textContent = 'No characters found.';
     characterList.appendChild(li);
   }
