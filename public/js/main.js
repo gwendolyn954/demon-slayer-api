@@ -41,14 +41,13 @@ function renderResults(results) {
         <span>Race: ${character.race}</span>
         <span>Affiliation: ${character.affiliation}</span>
         <span>Skill: ${character.skill}</span>
+        <br>
       `;
       characterList.appendChild(li);
     });
   } else {
-    const li = document.createElement('li');
-    li.classList.add('character-data');
-    li.innerHTML = `<span> No character found. (Psst! Error could totally be on us but we're adding characters everyday!)</span>`
-    li.textContent = 'No characters found.';
-    characterList.appendChild(li);
-  }
+    const noResults = document.createElement('li');
+    noResults.textContent = 'No characters found.';
+    characterList.appendChild(noResults);
+   }
 }
