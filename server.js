@@ -16,12 +16,12 @@ app.get('/', (req, res) => {
     res.json(characters);
   });
   
-  app.get('/api/:keyword', (req, res) => {
-    const keyword = req.params.keyword.toLowerCase();
+  app.get('/api/:name', (req, res) => {
+    const name = req.params.name.toLowerCase();
   
     // Filter through characters.js & pull items that match the keyword
     const results = characters.filter(obj =>
-      obj.keywords.some(str => str.toLowerCase().includes(keyword))
+      obj.keywords.some(str => str.toLowerCase().includes(name))
     );
   
     if (results.length) {
