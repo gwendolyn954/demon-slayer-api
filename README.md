@@ -1,10 +1,10 @@
 # Demon Slayer API
 
-![Project Screenshot](https://github.com/gwendolyn954/demon-slayer-api/blob/main/public/assets/Screenshot%202023-06-19%20at%201.44.40%20AM.png)
+![Project Screenshot](https://github.com/gwendolyn954/demon-slayer-api/blob/main/public/assets/ds-updated.png)
 
 ## Overview:
 
-The Demon Slayer API allows you to retrieve various details about the characters in the Demon Slayer universe. Whether you're a fan of the series or building an application centered around Demon Slayer, this API offers the essential character facts you need.
+The Demon Slayer API allows you to retrieve various details about the characters in the Demon Slayer universe. Whether you're a fan of the series or building an application centered around Demon Slayer, this API offers essential character facts this more to come.
 
 ## Tech Used 
 Express, Node.js, JavaScript, CSS, EJS
@@ -22,16 +22,16 @@ Serves all character data
 GET https://demon-slayer.cyclic.app/api/
 ```
 
-### /keyword
-Serves specific character data. Accepts keyword property key (character first or last name).
+### /name
+Serves specific character data.
 
 ```
-GET https://demon-slayer.cyclic.app/api/keyword
+GET https://demon-slayer.cyclic.app/api/name
 ```
 
 
 ## Working On:
 
 - Responsiveness
-- Add more characters
+- More character data
 - Additional endpoints
