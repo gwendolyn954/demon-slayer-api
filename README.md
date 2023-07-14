@@ -1,5 +1,5 @@
 # Demon Slayer API
-
+![Header](https://github.com/gwendolyn954/demon-slayer-api/blob/main/public/assets/gh-header.png)
 ![Project Screenshot](https://github.com/gwendolyn954/demon-slayer-api/blob/main/public/assets/ds-updated.png)
 
 ## Overview:
