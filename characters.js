@@ -94,7 +94,8 @@ const characters = [
         name: 'Rui',
         race: 'Demon',
         affiliation: 'Twelve Kizuki, Spider Family',
-        skill: 'Blood Demon Art',
+        skill: 'Blood Demon Art'
+
     }
 
 ]

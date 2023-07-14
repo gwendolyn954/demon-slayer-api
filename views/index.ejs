@@ -39,7 +39,7 @@
     <!-- Documentation -->
     <section id="documentation" class="container">
         <h2>Straight to the point:</h2>
-        <p> Each character object provides Demon Slayer character name, race, affiliation, & skill (with more character data to come in the future).<br></p>
+        <p> Each character object provides Demon Slayer character name, race, affiliation, & skill (with more character data to come).<br></p>
         <ul>
             <li>
                 <% for(let i = 0; i < 1; i++) { %>
@@ -80,7 +80,7 @@
         <h4>Enter Your Favorite Demon Slayer Character Name!</h4><br>
         <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
         <button id="search-btn" type="button">Enter</button>
-        <button id="reset-btn" type="button">Reset</button>
+        <button id="reset-btn" type="button" onclick="window.location.reload()">Reset</button>
     
         <div class="result">
             <ul id="character-list"></ul>

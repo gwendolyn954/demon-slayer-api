@@ -1,6 +1,7 @@
 // Set input variable & key-press event listener
 const input = document.querySelector('input');
 const searchBtn = document.getElementById('search-btn');
+const resetBtn = document.getElementById('reset-btn');
 
 input.addEventListener('keydown', (event) => {
   if (event.key === 'Enter') {

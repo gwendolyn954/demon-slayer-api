@@ -20,9 +20,9 @@ app.get('/', (req, res) => {
     const name = req.params.name.toLowerCase();
   
     // Filter through characters.js & pull items that match the keyword
-    const results = characters.filter(obj =>
-      obj.keywords.some(str => str.toLowerCase().includes(name))
-    );
+    const results = characters.filter(character => {
+      return character.name.toLowerCase().includes(name); 
+    });
   
     if (results.length) {
       res.json(results);

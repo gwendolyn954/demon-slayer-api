@@ -82,14 +82,9 @@ main .container h2, h3 {
 
 #documentation p {
     font-size: 20px;
+    margin-top: 10px;
 }
 
-#documentation img {
-    width: 600px;
-    height: 275px;
-    border-radius: 8px;
-    margin-bottom: 30px;
-}
 
 li {
     list-style-type: none;
@@ -103,10 +98,16 @@ li {
 
 #documentation h4 {
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
 #api-endpoint-1, #api-endpoint-2 {
     line-height: 1.8;
+}
+
+#api-endpoint-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 code {
@@ -114,7 +115,7 @@ code {
 }
 
 #documentation #authentication {
-    padding-bottom: 20px;
+    padding: 20px 0;
 }
 
 /* Demo/Results Section */
