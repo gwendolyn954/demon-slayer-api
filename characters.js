@@ -4,7 +4,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Water Breathing and Sun Breathing',
-        keywords: ['tanjiro', 'kamado'],
 
     },
 
@@ -13,7 +12,6 @@ const characters = [
         race: 'Demon',
         affiliation: 'Demon Slayer Corps (formerly)',
         skill: 'Blood Demon Art',
-        keywords: ['nezuko', 'kamado'],
 
     },
 
@@ -22,7 +20,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Thunder Breathing',
-        keywords: ['zenitsu', 'agatsuma'],
 
     },
 
@@ -31,7 +28,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Beast Breathing',
-        keywords: ['inosuke', 'hashibira'],
 
     },
 
@@ -40,7 +36,6 @@ const characters = [
         race: 'Demon',
         affiliation: 'Twelve Kizuki',
         skill: 'Whip Proficiency, Blood Demon Art',
-        keywords: ['muzan', 'kibutsuji'],
 
     },
 
@@ -49,7 +44,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Flower Breathing',
-        keywords: ['kanae', 'kocho'],
 
     },
 
@@ -58,7 +52,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Flower Breathing',
-        keywords: ['kanao', 'tsuyuri'],
 
     },
 
@@ -67,8 +60,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'none',
-        keywords: ['kagaya', 'ubuyashiki'],
-
     },
 
     {
@@ -76,8 +67,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Flame Breathing',
-        keywords: ['kyojuro', 'rengoku'],
-
     },
 
     {
@@ -85,8 +74,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Water Breathing',
-        keywords: ['giyu', 'tomioka'],
-
     },
 
     {
@@ -94,8 +81,6 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Insect Breathing',
-        keywords: ['shinobu', 'kocho'],
-
     },
 
     {
@@ -103,8 +88,6 @@ const characters = [
         race: 'Demon',
         affiliation: 'Demon Slayer Corps',
         skill: 'none',
-        keywords: ['tamayo'],
-
     },
 
     {
@@ -112,9 +95,7 @@ const characters = [
         race: 'Demon',
         affiliation: 'Twelve Kizuki, Spider Family',
         skill: 'Blood Demon Art',
-        keywords: ['rui'],
-
-    },  
+    }
 
 ]
 

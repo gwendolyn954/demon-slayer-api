@@ -45,9 +45,5 @@ function renderResults(results) {
       `;
       characterList.appendChild(li);
     });
-  } else {
-    const noResults = document.createElement('li');
-    noResults.textContent = 'No characters found.';
-    characterList.appendChild(noResults);
-   }
+  } 
 }

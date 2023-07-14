@@ -39,8 +39,26 @@
     <!-- Documentation -->
     <section id="documentation" class="container">
         <h2>Straight to the point:</h2>
-        <p> Each character object provides Demon Slayer character name, race, affiliation, skill, and keywords (with more data to come in the future).<br><br></p>
-        <img src="/assets/ds-property.png" alt="">
+        <p> Each character object provides Demon Slayer character name, race, affiliation, & skill (with more character data to come in the future).<br></p>
+        <ul>
+            <li>
+                <% for(let i = 0; i < 1; i++) { %>
+                    <pre class="json">
+                        <code>
+                            {
+                                <span>Name: '<%= characters[i].name %>',</span>
+                                <span>Race: '<%= characters[i].race %>',</span>
+                                <span>Affiliation: '<%= characters[i].affiliation %>',</span>
+                                <span>Skill: '<%= characters[i].skill %>'</span>
+                             } 
+                        </code>
+                    </pre>
+                <% } %>
+            </li>
+        </ul>
+        
+     <!-- Endpoints -->
+
         <h3>Endpoints</h3>
         <div id="api-endpoint-1">
             <h4>Base URL</h4>
@@ -56,12 +74,13 @@
         <p>To access the Demon Slayer API, no authentication or API key is required. The API is publicly accessible for fetching character information.</p>
     </section>
 
-<!-- Try it out section -->
+    <!-- Try it out section -->
     <section id="demo" class="container">
         <h3>Demo</h3>
         <h4>Enter Your Favorite Demon Slayer Character Name!</h4><br>
         <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
         <button id="search-btn" type="button">Enter</button>
+        <button id="reset-btn" type="button">Reset</button>
     
         <div class="result">
             <ul id="character-list"></ul>

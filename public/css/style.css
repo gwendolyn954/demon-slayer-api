@@ -8,7 +8,6 @@ body {
     font-family: 'Courier Prime', monospace;
 }
 
-/*nav - image - text logo */
 
 .navbar .container {
     background-color: #ebe9e7;
@@ -83,7 +82,6 @@ main .container h2, h3 {
 
 #documentation p {
     font-size: 20px;
-    padding-bottom: 20px;
 }
 
 #documentation img {
@@ -91,6 +89,10 @@ main .container h2, h3 {
     height: 275px;
     border-radius: 8px;
     margin-bottom: 30px;
+}
+
+li {
+    list-style-type: none;
 }
 
 #documentation h3 {
@@ -161,6 +163,10 @@ button {
     border: none;
     border-radius: 2px;
     background-color: black;
+    color: #64a78d;
+}
+
+#reset-btn {
     color: #fb5557;
 }
 
@@ -169,7 +175,6 @@ button {
     display: flex;
     flex-direction: column;
 }
-
 
 /* footer */
 

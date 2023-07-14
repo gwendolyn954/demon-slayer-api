@@ -9,7 +9,7 @@ app.use(cors())
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
-    res.render('index', { characters: [] }); // Render empty character list initially
+    res.render('index', { characters }); // Render empty character list initially
   });
   
   app.get('/api', (req, res) => {
@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
   });
   
   app.listen(PORT, () => {
-    console.log(`Server is running like a boss! 🚀`);
+    console.log(`gwendolyn, your server is running 🚀`);
   });
 
   
