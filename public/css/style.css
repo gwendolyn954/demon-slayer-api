@@ -201,7 +201,101 @@ footer p {
     
 }
 
-/* Responsiveness */
+
+
+/* mobile styles */
+@media(max-width: 768px) {
+
+    main .container{
+        flex-direction: column;
+        padding: 30px
+    }
+
+    main .container h2, h3 {
+        padding: 0;
+    }
+
+    #main-header {
+        font-size: 28px;
+    }
+
+    #main-content {
+        font-size: 22px;
+    }
+  
+    #siblings {
+    height: 150px;
+    width: 150px;
+   } 
+
+/* removes code block example */
+   #documentation ul {
+    display: none;
+   }
+
+   #documentation h3 {
+    padding-top: 40px;
+   }
+
+   #demo {
+    margin-top: 50px;
+    margin-bottom: 40px;  
+}
+
+   input {
+    width: 175px;
+   }
+
+   input::placeholder {
+    font-size: 12px;
+}
+
+    #reset-btn{
+        display: none;
+    }
+
+    footer {
+        font-size: 18px;
+        height: 200px;
+    }
+
+    footer #footer-header {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    footer p {
+        text-align: center;
+    }
+    
+    #socials {
+        margin-top: 20px;
+        
+    }
+
+}
+
+@media(min-width: 769px) {
+
+    main .container {
+        padding: 40px;
+    }
+
+    #siblings {
+        height: 280px;
+        width: 280px;
+    }
+
+
+}
+
+
+
+
+
+
+    
+
 
 
 
