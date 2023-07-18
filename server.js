@@ -19,7 +19,6 @@ app.get('/', (req, res) => {
   app.get('/api/:name', (req, res) => {
     const name = req.params.name.toLowerCase();
   
-    // Filter through characters.js & pull items that match the keyword
     const results = characters.filter(character => {
       return character.name.toLowerCase().includes(name); 
     });
