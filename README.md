@@ -32,6 +32,6 @@ GET https://demon-slayer.cyclic.app/api/name
 
 ## Working On:
 
-- Responsiveness
-- More character data
-- Additional endpoints
+- [x] Responsiveness
+- [ ] More character data
+- [ ] Additional endpoints
