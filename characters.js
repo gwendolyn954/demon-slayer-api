@@ -96,6 +96,13 @@ const characters = [
         affiliation: 'Twelve Kizuki, Spider Family',
         skill: 'Blood Demon Art'
 
+    },
+
+    {
+        name: 'Ubuyashiki Kagaya',
+        race: 'Human',
+        affiliation: 'Demon Slayer Corps',
+        skill: 'none'
     }
 
 ]
