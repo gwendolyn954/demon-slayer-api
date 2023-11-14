@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
   });
   
   app.listen(PORT, () => {
-    console.log(`gwendolyn, your server is running 🚀`);
+    console.log(`The server is running 🚀`);
   });
 
   
