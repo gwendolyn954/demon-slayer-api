@@ -206,25 +206,6 @@ footer p {
 
 
 /* mobile styles */
-@media (min-width: 320px) and (max-width: 560px) {
-    h1 {
-        font-size: 32px;
-        text-align: center;
-    }
-
-    #main-header, #main-content {
-        text-align: center;
-    }
-
-    footer {
-        padding: 8px;
-    }
-
-
-
-
-}
-
 
 @media(max-width: 768px) {
 
