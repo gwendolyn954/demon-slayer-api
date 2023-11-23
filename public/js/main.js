@@ -42,9 +42,12 @@ function renderResults(results) {
         <span>Race: ${character.race}</span>
         <span>Affiliation: ${character.affiliation}</span>
         <span>Skill: ${character.skill}</span>
+        <span>Quote: ${character.quote}</span>
         <br>
       `;
       characterList.appendChild(li);
     });
   } 
 }
+
+

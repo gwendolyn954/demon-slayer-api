@@ -42,7 +42,7 @@
         <p> Each character object provides Demon Slayer character name, race, affiliation, & skill (with more character data to come).<br></p>
         <ul>
             <li>
-                <% for(let i = 0; i < 2; i++) { %>
+                <% for(let i = 0; i < 1; i++) { %>
                     <pre class="json">
                         <code>
                             {
@@ -50,6 +50,7 @@
                                 <span>Race: '<%= characters[i].race %>',</span>
                                 <span>Affiliation: '<%= characters[i].affiliation %>',</span>
                                 <span>Skill: '<%= characters[i].skill %>'</span>
+                                <span>Quote: "<%= characters[i].quote %>"</span>
                              } 
                         </code>
                     </pre>
@@ -71,7 +72,7 @@
             <p>Serves specific character data.</p>
         </div>
         <h3 id="authentication">Authentication</h3>
-        <p>To access the Demon Slayer API, no authentication or API key is required. The API is publicly accessible for fetching character information.</p>
+        <p>To access the Demon Slayer API, no authentication or API key is required. This API is publicly accessible for fetching character information.</p>
     </section>
 
     <!-- Demo -->
