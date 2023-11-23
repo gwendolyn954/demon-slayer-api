@@ -205,7 +205,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'none',
-        quote: "Be strong, Master!! Hurry up and give the next order! The fight isn't over yet!"
+        quote: "Be strong, Master! Hurry up and give the next order! The fight isn't over yet!"
     },
 
 
