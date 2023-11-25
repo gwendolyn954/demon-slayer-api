@@ -5,7 +5,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Water Breathing and Sun Breathing',
-        quote: "I'll carry the weight of sadness for those who've died. That's the only way I can repay them for keeping me alive."
+        quote: "I'll carry the weight of sadness for those who've died."
     },
 
     {
