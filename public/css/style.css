@@ -207,11 +207,26 @@ footer p {
 
 /* mobile styles */
 
-@media(max-width: 768px) {
+/* if this is changed to max-width 1960, nav & footer are correct */
+@media(min-width: 768px) {
+
+    main .container {
+        padding: 40px;
+    }
+
+    #siblings {
+        height: 280px;
+        width: 280px;
+    }
+
+}
+
+
+@media(max-width: 767px) {
 
     main .container{
         flex-direction: column;
-        padding: 30px
+        padding: 30px;
     }
 
     main .container h2, h3 {
@@ -278,18 +293,6 @@ footer p {
 
 }
 
-@media(min-width: 769px) {
-
-    main .container {
-        padding: 40px;
-    }
-
-    #siblings {
-        height: 280px;
-        width: 280px;
-    }
-
-}
 
 
 

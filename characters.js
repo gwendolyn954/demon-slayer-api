@@ -208,9 +208,23 @@ const characters = [
         quote: "Be strong, Master! Hurry up and give the next order! The fight isn't over yet!"
     },
 
+    {
+        name: 'Sakonji Urokodaki',
+        id: '024',
+        race: 'Human',
+        affiliation: 'Demon Slayer Corps',
+        skill: 'Water Breathing',
+        quote: "Your sister must never take the life of an innocent person!"
+    },
 
-
-
+    {
+        name: 'Jigoro Kuwajima',
+        id: '025',
+        race: 'Human',
+        affiliation: 'Demon Slayer Corps',
+        skill: 'Thunder Breathing',
+        quote: "Compassion can make a person's heart infinitely tough. A sword that you swing for the sake of others can have power that is immense. You must become that kind of person."
+    },
 
 
 ]
