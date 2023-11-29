@@ -19,7 +19,7 @@ body {
     background-color: #ebe9e7;
     display: flex;
     align-items: center;
-    padding: 10px 30px;
+    padding: 20px 30px;
     height: 100%;
 }
 
@@ -73,8 +73,8 @@ main .container h2, h3 {
 
 /* Tanjiro & Nezuko Image */
 #siblings {
-    height: 400px;
-    width: 400px;
+    height: 280px;
+    width: 280px;
 }
 
 /* Documentation Section */
@@ -189,16 +189,16 @@ button {
 /* footer */
 
 footer {
-    padding: 10px 30px;
+    height: 80%;
     background-color: #ebe9e7;;
     color: black;
-    height: 180px;
     text-align: center;
-    font-size: 18px;
+    padding: 30px;
 }
 
 footer #footer-header {
-    padding-top: 45px;
+    padding-top: 15px;
+    padding-bottom: 10px;
     font-size: 40px;
 }
 
@@ -207,8 +207,7 @@ footer p {
 }
 
 #socials {
-    margin: 10px;
-    
+    margin: 20px;
 }
 
 
@@ -219,11 +218,6 @@ footer p {
 
     main .container {
         padding: 40px;
-    }
-
-    #siblings {
-        height: 280px;
-        width: 280px;
     }
 
 }
@@ -281,7 +275,6 @@ footer p {
 
     footer {
         font-size: 18px;
-        height: 200px;
     }
 
     footer #footer-header {
