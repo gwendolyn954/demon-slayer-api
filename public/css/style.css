@@ -12,6 +12,7 @@ html {
 body {
     width: 100%;
     min-height: 100vh;
+    overflow-x: hidden;
 }
 
 
@@ -29,7 +30,7 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 35px;
     padding-left: 15px;
 }
 
@@ -224,6 +225,11 @@ footer p {
 
 
 @media(max-width: 767px) {
+
+    #ds-logo {
+        height: 65px;
+        width: 65px;
+    }
 
     main .container{
         flex-direction: column;
