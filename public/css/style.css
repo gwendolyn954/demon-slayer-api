@@ -183,6 +183,7 @@ button {
 /* footer */
 
 footer {
+    padding: 10px 30px;
     background-color: #ebe9e7;;
     color: black;
     height: 180px;

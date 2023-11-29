@@ -229,5 +229,4 @@ const characters = [
 
 ]
 
-//makes this accessible outside of this code file; updated to ES
 exports.characters = characters;
