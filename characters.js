@@ -226,6 +226,8 @@ const characters = [
         quote: "Compassion can make a person's heart infinitely tough. A sword that you swing for the sake of others can have power that is immense. You must become that kind of person."
     },
 
+    
+
 
 ]
 
