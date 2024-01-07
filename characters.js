@@ -40,8 +40,8 @@ const characters = [
         id: '005',
         race: 'Demon',
         affiliation: 'Twelve Kizuki',
-        skill: 'Whip Proficiency, Blood Demon Art',
-        quote: "I will never allow a single person to escape. I will never allow a single person to live."
+        skill: 'Whip Proficiency, Biokinesis',
+        quote: "Does my complexion look unhealthy to you? Is my face pale? Do I look sickly to you? Do I look like I'm not long for this world? Do I look like I'm about to die? Wrong, wrong, wrong, wrong. I'm a living being who's infinitely close to perfection."
     },
 
     {
@@ -327,23 +327,15 @@ const characters = [
     },
 
     {
-        name: 'Muzan Kibutsuji',
-        id: '037',
-        race: 'Demon',
-        affiliation: 'Twelve Kizuki',
-        skill: 'Biokinesis',
-        quote: "Does my complexion look unhealthy to you? Is my face pale? Do I look sickly to you? Do I look like I'm not long for this world? Do I look like I'm about to die? Wrong, wrong, wrong, wrong. I'm a living being who's infinitely close to perfection."
-    },
-
-    {
         name: 'Yushiro',
-        id: '038',
+        id: '037',
         race: 'Demon',
         affiliation: 'Demon Slayer Corps',
         skill: 'Blindfold',
         quote: "Someone who never gives to others will someday become unable to receive anything from them."
     },
 
+    
     
 
 
