@@ -40,7 +40,6 @@ app.get('/', (req, res) => {
     console.log(`The server is running 🚀`);
   });
 
-  
 
   
 
