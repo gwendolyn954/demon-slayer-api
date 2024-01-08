@@ -332,10 +332,136 @@ const characters = [
         race: 'Demon',
         affiliation: 'Demon Slayer Corps',
         skill: 'Blindfold',
-        quote: "Someone who never gives to others will someday become unable to receive anything from them."
+        quote: "Someone who never gives to others will someday become unable to receive anything from them..."
     },
 
+    {
+        name: 'Susamaru',
+        id: '038',
+        race: 'Demon',
+        affiliation: 'Muzan Kibutsuji',
+        skill: 'Hiasobi Temari',
+        quote: "Let's keep playing until dawn! Until your life ends."
+    },
+
+    {
+        name: 'Yahaba',
+        id: '039',
+        race: 'Demon',
+        affiliation: 'Muzan Kibutsuji',
+        skill: 'Koketsu Arrow',
+        quote: "How will we kill them? Brutally of course!."
+    },
+
+    {
+        name: 'Hand Demon',
+        id: '040',
+        race: 'Demon',
+        affiliation: 'Muzan Kibutsuji',
+        skill: 'Hand Manipulation',
+        quote: "I promised myself I'd kill every single one of them..."
+    },
+
+    {
+        name: 'Temple Demon',
+        id: '041',
+        race: 'Demon',
+        affiliation: 'none',
+        skill: 'Flesh Manipulation',
+        quote: "There's something off about you?"
+    },
+
+    {
+        name: 'Tongue Demon',
+        id: '042',
+        race: 'Demon',
+        affiliation: 'none',
+        skill: 'Flesh Manipulation',
+        quote: "I'm gonna guzzle your brains through your ears!"
+    },
+
+    {
+        name: 'Horned Demon',
+        id: '043',
+        race: 'Demon',
+        affiliation: 'none',
+        skill: 'Flesh Manipulation',
+        quote: "It takes guts to charge at me head on!"
+    },
+
+    {
+        name: 'Swamp Demon',
+        id: '044',
+        race: 'Demon',
+        affiliation: 'none',
+        skill: 'Swamp Domain',
+        quote: "You should have looked before you leaped in, imbecile!"
+    },
+
+    {
+        name: 'Spider Demon - Son',
+        id: '045',
+        race: 'Demon',
+        affiliation: 'Spider Family',
+        skill: 'Spider Physiology, Conversion',
+        quote: "There's nothing to be afraid of. When the poison runs throughout your system and you become a spider, your mind will be gone..."
+    },
+
+    {
+        name: 'Spider Demon - Father',
+        id: '046',
+        race: 'Demon',
+        affiliation: 'Spider Family',
+        skill: 'Spider Physiology, Metamorphosis',
+        quote: "Stay away from my family!"
+    },
+
+    {
+        name: 'Spider Demon - Mother',
+        id: '047',
+        race: 'Demon',
+        affiliation: 'Spider Family',
+        skill: 'Spider Physiology, Enhanced Regeneration, Silk Manipulation',
+        quote: "Such kind eyes. Back when I was human, I think someone used to look at me with kind eyes..."
+    },
+
+    {
+        name: 'Spider Demon - Daughter',
+        id: '048',
+        race: 'Demon',
+        affiliation: 'Spider Family',
+        skill: 'Spider Physiology, Enhanced Regeneration Silk Manipulation',
+        quote: "I only ever worried about myself. They were dumb, but I was different...."
+    },
+
+    {
+        name: 'Nakime',
+        id: '049',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Infinity Castle Manipulation',
+        quote: "I decline."
+    },
     
+    {
+        name: 'Slasher',
+        id: '050',
+        race: 'Demon',
+        affiliation: 'none',
+        skill: 'Regeneration',
+        quote: "No one's ever been able to stop me. I'm the fastest...of them all!"
+    },
+
+
+
+
+
+
+
+
+
+
+
     
 
 
