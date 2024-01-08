@@ -452,48 +452,7 @@ const characters = [
         quote: "No one's ever been able to stop me. I'm the fastest...of them all!"
     },
 
-
-
-
-
-
-
-
-
-
-
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
 
 ]
 
