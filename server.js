@@ -35,6 +35,31 @@ app.get('/', (req, res) => {
       });
     }
   });
+
+  app.get('/api/race/demon', (req, res) => {
+    const demonCharacters = characters.filter(character => character.race.toLowerCase() === 'demon');
+  
+    if (demonCharacters.length > 0) {
+        res.json(demonCharacters);
+    } else {
+        res.status(404).json({
+            error: 'No demons found'
+        });
+    }
+});
+
+  app.get('/api/race/human', (req, res) => {
+    const humanCharacters = characters.filter(character => character.race.toLowerCase() === 'human');
+
+    if (humanCharacters.length > 0) {
+        res.json(humanCharacters);
+    } else {
+        res.status(404).json({
+            error: 'No humans found'
+        });
+    }
+  });
+
   
   app.listen(port, () => {
     console.log(`The server is running 🚀`);
