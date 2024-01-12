@@ -84,7 +84,7 @@ const characters = [
         name: 'Sanemi Shinazugawa',
         id: '010',
         race: 'Human',
-        affiliation: 'Demon Slayer Corps',
+        affiliation: 'Shinazugawa Family, Demon Slayer Corps',
         skill: 'Wind Breathing',
         quote: "Is that the moron Slayer who has a demon with him?"
     },
@@ -249,7 +249,7 @@ const characters = [
         name: 'Genya Shinazugawa',
         id: '028',
         race: 'Human',
-        affiliation: 'Demon Slayer Corps',
+        affiliation: 'Shinazugawa Family, Demon Slayer Corps',
         skill: 'Dual Wielding',
         quote: "...I will not let my brother, or my master, or any of my comrades die!"
     },
@@ -601,11 +601,86 @@ const characters = [
         id: '066',
         race: 'Human',
         affiliation: 'Kamado Family',
-        skill: 'Hinokami Kagura' ,
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Sumire Kamado',
+        id: '067',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'none',
+        quote: "Hug!"
+    },
+
+    {
+        name: 'Kyogo Shinazugawa',
+        id: '068',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: "Be thankful you're my son. You're extra tough."
+    },
+
+    {
+        name: 'Shizu Shinazugawa',
+        id: '069',
+        race: 'Demon',
+        affiliation: 'Shinazugawa Family',
+        skill: 'Enhanced Speed',
+        quote: 'none'
+    },
+
+    {
+        name: 'Sumi Shinazugawa',
+        id: '070',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Teiko Shinazugawa',
+        id: '071',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Hiroshi Shinazugawa',
+        id: '071',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Koto Shinazugawa',
+        id: '072',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Shuya Shinazugawa',
+        id: '073',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
         quote: 'none'
     },
 
     
+
+
+
 
 
 ]
