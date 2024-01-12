@@ -1,9 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-
 const path = require('path')
-
 const {characters} = require('./characters')
 const port = process.env.PORT || 3000
 
@@ -62,7 +60,7 @@ app.get('/', (req, res) => {
 
   
   app.listen(port, () => {
-    console.log(`The server is running 🚀`);
+    console.log(`The server is running...`);
   });
 
 
