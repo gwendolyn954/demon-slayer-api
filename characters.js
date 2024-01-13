@@ -673,11 +673,11 @@ const characters = [
         id: '073',
         race: 'Human',
         affiliation: 'Shinazugawa Family',
-        skill: 'none',
+        skill: 'none',      
         quote: 'none'
     },
 
-    
+
 
 
 
