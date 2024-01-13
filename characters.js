@@ -580,7 +580,7 @@ const characters = [
 
     {
         name: 'Rokuta Kamado',
-        id: '064',
+        id: '065',
         race: 'Human',
         affiliation: 'Kamado Family',
         skill: 'none' ,
@@ -589,7 +589,7 @@ const characters = [
 
     {
         name: 'Sumiyoshi Kamado',
-        id: '065',
+        id: '066',
         race: 'Human',
         affiliation: 'Kamado Family',
         skill: 'Hinokami Kagura' ,
@@ -598,7 +598,7 @@ const characters = [
 
     {
         name: 'Suyako Kamado',
-        id: '066',
+        id: '067',
         race: 'Human',
         affiliation: 'Kamado Family',
         skill: 'none',
@@ -607,7 +607,7 @@ const characters = [
 
     {
         name: 'Sumire Kamado',
-        id: '067',
+        id: '068',
         race: 'Human',
         affiliation: 'Kamado Family',
         skill: 'none',
@@ -616,7 +616,7 @@ const characters = [
 
     {
         name: 'Kyogo Shinazugawa',
-        id: '068',
+        id: '069',
         race: 'Human',
         affiliation: 'Shinazugawa Family',
         skill: 'none',
@@ -625,7 +625,7 @@ const characters = [
 
     {
         name: 'Shizu Shinazugawa',
-        id: '069',
+        id: '070',
         race: 'Demon',
         affiliation: 'Shinazugawa Family',
         skill: 'Enhanced Speed',
@@ -634,7 +634,7 @@ const characters = [
 
     {
         name: 'Sumi Shinazugawa',
-        id: '070',
+        id: '071',
         race: 'Human',
         affiliation: 'Shinazugawa Family',
         skill: 'none',
@@ -643,24 +643,6 @@ const characters = [
 
     {
         name: 'Teiko Shinazugawa',
-        id: '071',
-        race: 'Human',
-        affiliation: 'Shinazugawa Family',
-        skill: 'none',
-        quote: 'none'
-    },
-
-    {
-        name: 'Hiroshi Shinazugawa',
-        id: '071',
-        race: 'Human',
-        affiliation: 'Shinazugawa Family',
-        skill: 'none',
-        quote: 'none'
-    },
-
-    {
-        name: 'Koto Shinazugawa',
         id: '072',
         race: 'Human',
         affiliation: 'Shinazugawa Family',
@@ -669,16 +651,31 @@ const characters = [
     },
 
     {
-        name: 'Shuya Shinazugawa',
+        name: 'Hiroshi Shinazugawa',
         id: '073',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Koto Shinazugawa',
+        id: '074',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Shuya Shinazugawa',
+        id: '075',
         race: 'Human',
         affiliation: 'Shinazugawa Family',
         skill: 'none',      
         quote: 'none'
     },
-
-
-
 
 
 
