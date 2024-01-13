@@ -3,7 +3,7 @@ const characters = [
         name: 'Tanjiro Kamado',
         id: '001',
         race: 'Human',
-        affiliation: 'Demon Slayer Corps',
+        affiliation: 'Kamado Family, Demon Slayer Corps',
         skill: 'Water Breathing and Sun Breathing',
         quote: "I'll carry the weight of sadness for those who've died."
     },
@@ -12,7 +12,7 @@ const characters = [
         name: 'Nezuko Kamado',
         id: '002',
         race: 'Demon',
-        affiliation: 'Demon Slayer Corps (formerly)',
+        affiliation: 'Kamado Family, Demon Slayer Corps',
         skill: 'Blood Demon Art',
         quote: "Humans are to be protected and saved. I will never hurt them."
     },
@@ -84,7 +84,7 @@ const characters = [
         name: 'Sanemi Shinazugawa',
         id: '010',
         race: 'Human',
-        affiliation: 'Demon Slayer Corps',
+        affiliation: 'Shinazugawa Family, Demon Slayer Corps',
         skill: 'Wind Breathing',
         quote: "Is that the moron Slayer who has a demon with him?"
     },
@@ -249,7 +249,7 @@ const characters = [
         name: 'Genya Shinazugawa',
         id: '028',
         race: 'Human',
-        affiliation: 'Demon Slayer Corps',
+        affiliation: 'Shinazugawa Family, Demon Slayer Corps',
         skill: 'Dual Wielding',
         quote: "...I will not let my brother, or my master, or any of my comrades die!"
     },
@@ -451,6 +451,237 @@ const characters = [
         skill: 'Regeneration',
         quote: "No one's ever been able to stop me. I'm the fastest...of them all!"
     },
+
+    {
+        name: 'Kokushibo',
+        id: '051',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Moon Breathing, Crescent Moon Blades',
+        quote: "I could never grab hold of anything. Anything at all. I abandoned my home. I abandoned my wife and children. I abandoned my humanity..."
+    },
+
+    {
+        name: 'Doma',
+        id: '052',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Cryokinesis',
+        quote: "I truly believe that humans are pathetic..."
+    },
+
+    {
+        name: 'Akaza',
+        id: '053',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Destructive Death, Extrasensory Perception',
+        quote: "You misunderstand, Tanjiro. I only despise the weak. I only spit on weaklings. Yes. Weaklings make me sick. It is the law of nature that they be weeded out."
+    },
+
+    {
+        name: 'Hantengu',
+        id: '054',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Emotion Manifestation',
+        quote: "Since the day I was born I've never lied... not even once! I'm a good natured weakling! I deserve pity, but no one has any sympathy for me." 
+    },
+
+    {
+        name: 'Gyokko',
+        id: '055',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Porcelain Vase Spells',
+        quote: "...You seem desperate. It's embarrassing" 
+    },
+
+    {
+        name: 'Gyutaro',
+        id: '056',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Dual Kama',
+        quote: "The sufferings of my past were lessons on what to do to others as revenge! If I don't cause misery equal to my own unhappiness, I'll never balance the scales!" 
+    },
+
+    {
+        name: 'Daki',
+        id: '057',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Obi Sash Manipulation',
+        quote: "We beautiful, powerful demons... can do anything we want!" 
+    },
+
+    {
+        name: 'Enmu',
+        id: '058',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Sleep Manipulation, Dream Manipulation',
+        quote: "All human hearts are the same—fragile and weak like glasswork."
+    },
+
+    {
+        name: 'Wakuraba',
+        id: '059',
+        race: 'Demon',
+        affiliation: 'Twelve Kizuki',
+        skill: 'Enhanced Regeneration',
+        quote: "none"
+    },
+
+    {
+        name: 'Tanjuro Kamado',
+        id: '060',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'Demon Slayer Mark, Immense Strength, Extrasensory Perception',
+        quote: "I'm sorry you're hungry but I will not let you come any closer. I will show no mercy to anyone who would harm my family... no matter the odds. Heed my warning... or I will steal your life."
+    },
+
+    {
+        name: 'Kie Kamado',
+        id: '061',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'none' ,
+        quote: "It's dangerous with all this snow.  You don't have to go, you know."
+    },
+
+    {
+        name: 'Takeo Kamado',
+        id: '062',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'none' ,
+        quote: "You and our sister sure take after each other. You're gentle but scary when you get mad."
+    },
+
+    {
+        name: 'Hanako Kamado',
+        id: '063',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'none' ,
+        quote: "Hey! You stop that right now!"
+    },
+
+    {
+        name: 'Shigeru Kamado',
+        id: '064',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'none' ,
+        quote: "You're going to town again today?"
+    },
+
+    {
+        name: 'Rokuta Kamado',
+        id: '064',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'none' ,
+        quote: 'none'
+    },
+
+    {
+        name: 'Sumiyoshi Kamado',
+        id: '065',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'Hinokami Kagura' ,
+        quote: 'none'
+    },
+
+    {
+        name: 'Suyako Kamado',
+        id: '066',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Sumire Kamado',
+        id: '067',
+        race: 'Human',
+        affiliation: 'Kamado Family',
+        skill: 'none',
+        quote: "Hug!"
+    },
+
+    {
+        name: 'Kyogo Shinazugawa',
+        id: '068',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: "Be thankful you're my son. You're extra tough."
+    },
+
+    {
+        name: 'Shizu Shinazugawa',
+        id: '069',
+        race: 'Demon',
+        affiliation: 'Shinazugawa Family',
+        skill: 'Enhanced Speed',
+        quote: 'none'
+    },
+
+    {
+        name: 'Sumi Shinazugawa',
+        id: '070',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Teiko Shinazugawa',
+        id: '071',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Hiroshi Shinazugawa',
+        id: '071',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Koto Shinazugawa',
+        id: '072',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',
+        quote: 'none'
+    },
+
+    {
+        name: 'Shuya Shinazugawa',
+        id: '073',
+        race: 'Human',
+        affiliation: 'Shinazugawa Family',
+        skill: 'none',      
+        quote: 'none'
+    },
+
+
+
+
+
+
 
 ]
 
