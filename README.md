@@ -46,5 +46,5 @@ GET https://demon-slayer.cyclic.app/api/race/demon
 ## Working On:
 
 - [x] Responsiveness
-- [ ] More character data
-- [ ] Additional endpoints
+- [x] More character data
+- [x] Additional endpoints
