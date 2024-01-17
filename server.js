@@ -10,14 +10,17 @@ app.set('view engine', 'ejs')
 app.use(cors())
 app.use(express.static(path.join(__dirname, 'public')))
 
+// Renders empty character list 
 app.get('/', (req, res) => {
-    res.render('index', { characters }); // Render empty character list initially
+    res.render('index', { characters }); 
   });
-  
+
+//serves ALL info for ALL characters
   app.get('/api', (req, res) => {
     res.json(characters);
   });
   
+//serves character facts by character name
   app.get('/api/:name', (req, res) => {
     const name = req.params.name.toLowerCase();
   
@@ -34,18 +37,20 @@ app.get('/', (req, res) => {
     }
   });
 
+// filters data to serve all demon characters
   app.get('/api/race/demon', (req, res) => {
-    const demonCharacters = characters.filter(character => character.race.toLowerCase() === 'demon');
+     const demonCharacters = characters.filter(character => character.race.toLowerCase() === 'demon');
   
-    if (demonCharacters.length > 0) {
-        res.json(demonCharacters);
-    } else {
-        res.status(404).json({
-            error: 'No demons found'
-        });
-    }
-});
+     if (demonCharacters.length > 0) {
+         res.json(demonCharacters);
+     } else {
+         res.status(404).json({
+             error: 'No demons found'
+         });
+     }
+ });
 
+//filters data to serve all human characters
   app.get('/api/race/human', (req, res) => {
     const humanCharacters = characters.filter(character => character.race.toLowerCase() === 'human');
 
@@ -58,7 +63,6 @@ app.get('/', (req, res) => {
     }
   });
 
-  
   app.listen(port, () => {
     console.log(`The server is running...`);
   });

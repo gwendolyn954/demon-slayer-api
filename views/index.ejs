@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/36aa95581e.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
 
@@ -28,7 +28,7 @@
         <div class="container">
             <div>
                 <h2 id="main-header" >SERVING DEMON SLAYER CHARACTER FACTS</h3>
-                <h3 id="main-content">Built for developers (and fans), the Demon Slayer API provides access to a collection of character facts from the popular anime and manga series, Demon Slayer: Kimetsu no Yaiba.</h2>
+                <h3 id="main-content">Built for developers and fans, the Demon Slayer API provides access to a collection of character facts from the popular anime and manga series, Demon Slayer: Kimetsu no Yaiba.</h2>
             </div>
             <div>
                 <img id="siblings" src="assets/tanjiro-nezuko.png" alt="Demon Slayer main character Tanjiro, carrying his sister Nezuko in her basket on his back.">
@@ -39,39 +39,32 @@
     <!-- Documentation -->
     <section id="documentation" class="container">
         <h2>Straight to the point:</h2>
-        <p> Each character object provides Demon Slayer character facts such as name, race, affiliation, skill, etc. (With more character data to come!).<br></p>
-        <ul>
-            <li>
-                <% for(let i = 0; i < 2; i++) { %>
-                    <pre class="json">
-                        <code>
-                            {
-                                <span>Name: '<%= characters[i].name %>',</span>
-                                <span>ID: '<%= characters[i].id %>',</span>
-                                <span>Race: '<%= characters[i].race %>',</span>
-                                <span>Affiliation: '<%= characters[i].affiliation %>',</span>
-                                <span>Skill: '<%= characters[i].skill %>'</span>
-                                <span>Quote: "<%= characters[i].quote %>"</span>
-                             } 
-                        </code>
-                    </pre>
-                <% } %>
-            </li>
-        </ul>
+        <p> Each character object provides Demon Slayer character facts such as name, race, affiliation, skill, etc.<br></p>
         
      <!-- Endpoints -->
-
-        <h3>Endpoints</h3>
+        <h3 id="endpoints-title">Endpoints</h3>
         <div id="api-endpoint-1">
-            <h4>Base URL</h4>
+            <h4>&#x2022; Base URL</h4>
             <pre><code>GET https://demon-slayer.cyclic.app/api/</code></pre>  
-            <p>Serves all character data.</p>
+            <p>Serves all characters.</p>
         </div>
         <div id="api-endpoint-2">
-            <h4>/name</h4>
+            <h4>&#x2022; /name</h4>
             <pre><code>GET https://demon-slayer.cyclic.app/api/name</code></pre>
-            <p>Serves specific character data.</p>
+            <p>Serves specific character facts. Replace <span>/name</span> with a character name.</p>
         </div>
+        <div id="api-endpoint-3">
+            <h4>&#x2022; /race/human</h4>
+            <pre><code>GET https://demon-slayer.cyclic.app/api/race/human</code></pre>
+            <p>Serves all human characters.</p>
+        </div>
+        <div id="api-endpoint-4">
+            <h4>&#x2022; /race/demon</h4>
+            <pre><code>GET https://demon-slayer.cyclic.app/api/race/demon</code></pre>
+            <p>Serves all demon characters.</p>
+        </div>
+    
+        <!--Authentication Note -->
         <h3 id="authentication">Authentication</h3>
         <p>To access the Demon Slayer API, no authentication or API key is required. This API is publicly accessible for fetching character information.</p>
     </section>
@@ -79,8 +72,10 @@
     <!-- Demo -->
     <section id="demo" class="container">
         <h3>Demo:</h3>
-        <h4>Enter Your Favorite Demon Slayer Character Name!</h4><br>
-        <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
+        <label>
+            <h4>Enter Your Favorite Demon Slayer Character Name!</h4><br>
+            <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
+        </label>
         <button id="search-btn" type="button">SEARCH</button>
         <button id="reset-btn" type="button" onclick="window.location.reload()">RESET</button>
     
@@ -94,11 +89,11 @@
         <p id="footer-header" >DEMON SLAYER API</p>
         <p>Thanks for checking out the Demon Slayer API!</p>
         <div id="socials">
-            <a href="https://github.com/gwendolyn954/demon-slayer-api"><i class="fa-brands fa-github fa-xl" style="color: #000000;"></i></a>
+            <a href="https://github.com/gwendolyn954/demon-slayer-api">Visit the Demon Slayer API repo<i class="fa-brands fa-github fa-xl" style="color: #000000;"></i></a>
         </div>
    </footer>
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
 

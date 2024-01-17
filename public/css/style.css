@@ -91,8 +91,9 @@ main .container h2, h3 {
 }
 
 #documentation p {
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 10px;
+    padding-bottom: 30px;
 }
 
 li {
@@ -110,12 +111,16 @@ li {
     margin-bottom: 10px;
 }
 
-#api-endpoint-1, #api-endpoint-2 {
-    line-height: 1.8;
+#endpoints-title {
+    margin-bottom: 20px;
+ }
+
+#api-endpoint-1, #api-endpoint-2, #api-endpoint-3, #api-endpoint-4 {
+    line-height: 1.0;
 }
 
-#api-endpoint-2 {
-    margin-top: 20px;
+#api-endpoint-2, #api-endpoint-3, #api-endpoint-4 {
+    margin-top: 10px;
     margin-bottom: 20px;
 }
 
@@ -124,9 +129,6 @@ code {
     text-wrap: wrap;
 }
 
-#documentation #authentication {
-    padding: 20px 0;
-}
 
 /* Demo/Results Section */
 
@@ -182,6 +184,7 @@ button {
 }
 
 .result ul li {
+    padding: 10px;
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -211,6 +214,9 @@ footer p {
     margin: 20px;
 }
 
+#socials i {
+    padding-left: 20px;
+}
 
 
 /* mobile styles */

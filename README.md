@@ -16,19 +16,32 @@ Check out the Demon Slayer API documentation at https://demon-slayer.cyclic.app.
 The API provides the following endpoints to retrieve character facts:
 
 ### Base URL
-Serves all character data
+Serves all characters.
 
 ```
 GET https://demon-slayer.cyclic.app/api/
 ```
 
 ### /name
-Serves specific character data.
+Serves specific character facts. Replace /name with a character name.
 
 ```
 GET https://demon-slayer.cyclic.app/api/name
 ```
 
+### /race/human
+Serves character facts for all human characters.
+
+```
+GET https://demon-slayer.cyclic.app/api/race/human
+```
+
+### /race/demon
+Serves character facts for all demon characters.
+
+```
+GET https://demon-slayer.cyclic.app/api/race/demon
+```
 
 ## Working On:
 
