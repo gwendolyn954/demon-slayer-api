@@ -64,7 +64,7 @@ app.get('/', (req, res) => {
   });
 
   app.listen(port, () => {
-    console.log(`The server is running...`);
+    console.log(`Server is running... 👺`);
   });
 
   
