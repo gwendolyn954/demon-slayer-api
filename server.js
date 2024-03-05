@@ -43,11 +43,7 @@ app.get('/', (req, res) => {
   
      if (demonCharacters.length > 0) {
          res.json(demonCharacters);
-     } else {
-         res.status(404).json({
-             error: 'No demons found'
-         });
-     }
+     } 
  });
 
 //filters data to serve all human characters
@@ -56,11 +52,7 @@ app.get('/', (req, res) => {
 
     if (humanCharacters.length > 0) {
         res.json(humanCharacters);
-    } else {
-        res.status(404).json({
-            error: 'No humans found'
-        });
-    }
+    } 
   });
 
   app.listen(port, () => {
