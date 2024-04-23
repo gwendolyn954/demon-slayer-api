@@ -676,10 +676,6 @@ const characters = [
         skill: 'none',      
         quote: 'none'
     },
-
-
-
-
 ]
 
 exports.characters = characters;
