@@ -51,5 +51,5 @@ GET https://demon-slayer-api-9c6c.onrender.com/api/race/demon
 
 ## Coming soon:
 
-- [] Additional characters
-- [] Additional endpoints
+- Adding new characters
+- Adding relational endpoints
