@@ -4,47 +4,52 @@
 
 ## Overview:
 
-The Demon Slayer API allows you to retrieve various details about the characters in the Demon Slayer universe. Whether you're a fan of the series or building an application centered around Demon Slayer, this API offers essential character facts with more to come soon!
+The Demon Slayer API allows you to retrieve various details about the characters in the Demon Slayer universe. If you're a fan of the series and want to build an application centered around Demon Slayer, this API offers essential character facts.
 
-## Tech Used 
+## Tech  
 Express, Node.js, JavaScript, CSS, EJS
 
-## Get Started
-Check out the Demon Slayer API documentation at https://demon-slayer.cyclic.app.
+## Quickstart  
+- Clone repo
+- Navigate to project (cd demon-slayer-api)
+- Install dependencies (npm install)
+- Run (npm run dev)
 
-## How To Use
+## View Demo
+Check out the Demon Slayer API demo at https://demon-slayer-api-9c6c.onrender.com/.
+
+## Endpoints
 The API provides the following endpoints to retrieve character facts:
 
 ### Base URL
-Serves all characters.
+Serves all character facts.
 
 ```
-GET https://demon-slayer.cyclic.app/api/
+GET https://demon-slayer-api-9c6c.onrender.com/api/
 ```
 
 ### /name
 Serves specific character facts. Replace /name with a character name.
 
 ```
-GET https://demon-slayer.cyclic.app/api/name
+GET https://demon-slayer-api-9c6c.onrender.com/api/name
 ```
 
 ### /race/human
 Serves character facts for all human characters.
 
 ```
-GET https://demon-slayer.cyclic.app/api/race/human
+GET https://demon-slayer-api-9c6c.onrender.com/api/race/human
 ```
 
 ### /race/demon
 Serves character facts for all demon characters.
 
 ```
-GET https://demon-slayer.cyclic.app/api/race/demon
+GET https://demon-slayer-api-9c6c.onrender.com/api/race/demon
 ```
 
-## Working On:
+## Coming soon:
 
-- [x] Responsiveness
-- [x] More character data
-- [x] Additional endpoints
+- [] Additional characters
+- [] Additional endpoints
