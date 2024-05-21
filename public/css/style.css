@@ -65,6 +65,7 @@ main .container h2, h3 {
 #main-header {
     padding-bottom: 15px;
     font-size: 30px;
+    color: rgb(56, 130, 162);
 }
 
 #main-content {
@@ -87,7 +88,8 @@ main .container h2, h3 {
 #documentation h2 {
     font-size: 30px;
     padding-bottom: 15px;
-    color: #fb5557;
+    color: rgb(56, 130, 162);
+    text-decoration: underline;
 }
 
 #documentation p {
@@ -129,6 +131,10 @@ code {
     text-wrap: wrap;
 }
 
+#api-endpoint-2 span {
+    color: #fb5557;
+}
+
 
 /* Demo/Results Section */
 
@@ -140,7 +146,8 @@ code {
 #demo h3 {
     margin-bottom: 20px;
     font-size: 28px;
-    color: #fb5557;
+    color: rgb(56, 130, 162);
+    text-decoration: underline;
 }
 
 #demo h4 {
@@ -176,7 +183,7 @@ button {
     border: none;
     border-radius: 2px;
     background-color: black;
-    color: #64a78d;
+    color: rgb(85, 155, 186);
 }
 
 #reset-btn {
