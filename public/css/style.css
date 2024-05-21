@@ -203,26 +203,26 @@ footer {
     height: 80%;
     background-color: #ebe9e7;;
     color: black;
-    text-align: center;
+    text-align: left;
     padding: 30px;
 }
 
 footer #footer-header {
-    padding-top: 15px;
+    padding-top: 10px;
     padding-bottom: 10px;
     font-size: 40px;
 }
 
 footer p {
-    text-align: center;
+    text-align: left;
 }
 
 #socials {
-    margin: 20px;
+    margin-top: 10px;
 }
 
 #socials i {
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 
@@ -302,7 +302,7 @@ footer p {
     }
     
     footer p {
-        text-align: center;
+        text-align: left;
     }
     
     #socials {
