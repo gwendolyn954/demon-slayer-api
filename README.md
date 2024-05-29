@@ -16,7 +16,10 @@ Express, Node.js, JavaScript, CSS, EJS
 - Run (npm run dev)
 
 ## View Demo
-Check out the Demon Slayer API demo at https://demon-slayer-api-9c6c.onrender.com/.
+Check out the Demon Slayer API demo [here]( https://demon-slayer-api-9c6c.onrender.com/).  
+
+> [!NOTE]
+> Demon Slayer API uses Render's free tier service, which spins down after 15 minutes of inactivity.  Initial requests can take around 30 seconds to wake up but I've found that it takes about 13 seconds.
 
 ## Endpoints
 The API provides the following endpoints to retrieve character facts:
@@ -49,7 +52,7 @@ Serves character facts for all demon characters.
 GET https://demon-slayer-api-9c6c.onrender.com/api/race/demon
 ```
 
-## Coming soon:
+## Up Next:
 
-- Adding new characters
-- Adding relational endpoints
+- [ ] Add relationship endpoints
+- [ ] Add character images
