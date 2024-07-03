@@ -4,15 +4,11 @@
     padding: 0;
 }
 
-html {
-    font-family: 'Courier Prime', monospace;
-    
-}
-
 body {
     width: 100%;
     min-height: 100vh;
     overflow-x: hidden;
+    font-family: 'Courier Prime', monospace;
 }
 
 
