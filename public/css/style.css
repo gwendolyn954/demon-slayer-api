@@ -81,8 +81,8 @@ main .container h2, h3 {
     padding-top: 40px;
 }
 
-#documentation h2 {
-    font-size: 30px;
+#overview {
+    font-size: 26px;
     font-weight: 400;
     padding-bottom: 15px;
     color: rgb(56, 130, 162);
@@ -132,6 +132,10 @@ code {
     color: #fb5557;
 }
 
+#authentication h3 {
+    font-size: 26px;
+}
+
 
 /* Demo/Results Section */
 
@@ -142,7 +146,7 @@ code {
 
 #demo h3 {
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 26px;
     color: rgb(56, 130, 162);
     text-decoration: underline;
 }
@@ -267,7 +271,7 @@ footer p {
     display: none;
    }
 
-   #documentation h3 {
+   #overview {
     padding-top: 40px;
    }
 
