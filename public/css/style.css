@@ -11,7 +11,6 @@ body {
     font-family: 'Courier Prime', monospace;
 }
 
-
 .navbar .container {
     background-color: #ebe9e7;
     display: flex;
@@ -26,10 +25,10 @@ body {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 45px;
+    font-weight: 400;
     padding-left: 15px;
 }
-
 
 /* main & section */
 
@@ -56,6 +55,7 @@ main .container {
 
 main .container h2, h3 {
     padding-right: 60px;
+    font-weight: 400;
 }
 
 #main-header {
@@ -83,6 +83,7 @@ main .container h2, h3 {
 
 #documentation h2 {
     font-size: 30px;
+    font-weight: 400;
     padding-bottom: 15px;
     color: rgb(56, 130, 162);
     text-decoration: underline;
@@ -148,6 +149,7 @@ code {
 
 #demo h4 {
     font-size: 20px;
+    font-weight: 400;
 }
 
 #demo .result {
@@ -206,7 +208,7 @@ footer {
 footer #footer-header {
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 footer p {
@@ -229,9 +231,7 @@ footer p {
     main .container {
         padding: 40px;
     }
-
 }
-
 
 @media(max-width: 767px) {
 
@@ -305,7 +305,6 @@ footer p {
         margin-top: 20px;
         
     }
-
 }
 
 
