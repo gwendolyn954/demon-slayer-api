@@ -4,7 +4,7 @@
 
 ## Overview:
 
-The Demon Slayer API allows you to retrieve various details about the characters in the Demon Slayer universe. If you're a fan of the series and want to build an application centered around Demon Slayer, this API offers essential character facts.
+The Demon Slayer API allows you to retrieve various details about the characters in the Demon Slayer universe. If you're a fan of the series and want to build an application centered around Demon Slayer, this API offers character facts.
 
 ## Tech  
 Express, Node.js, JavaScript, CSS, EJS
@@ -51,8 +51,3 @@ Serves character facts for all demon characters.
 ```
 GET https://demon-slayer-api-9c6c.onrender.com/api/race/demon
 ```
-
-## Up Next:
-
-- [ ] Add relationship endpoints
-- [ ] Add character images

@@ -5,93 +5,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demon Slayer API</title>
-    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/36aa95581e.js" crossorigin="anonymous"></script>
+    <script>
+        (() => {
+            let savedTheme = null;
+
+            try {
+                savedTheme = localStorage.getItem('theme');
+            } catch (error) {
+                savedTheme = null;
+            }
+
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (savedTheme || prefersDark) {
+                document.documentElement.dataset.theme = savedTheme || 'dark';
+            }
+        })();
+    </script>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <!-- nav bar -->
-    <nav class="navbar">
-        <div class="container">
-            <div><img id="ds-logo" src="/assets/logo.png" alt="Demon Slayer Logo"></div>
-            <div><h1>DEMON SLAYER API</h1></div>
-        </div>
-    </nav>
+    <header class="site-header">
+        <nav class="nav-shell" aria-label="Primary navigation">
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false" title="Toggle dark mode">
+                <span class="theme-toggle-icon" aria-hidden="true"></span>
+            </button>
+            <a class="github-link" href="https://github.com/gwendolyn954/demon-slayer-api" aria-label="View GitHub repository" title="View GitHub repository" rel="noreferrer">
+                <img src="/assets/github-white-icon.png" alt="" aria-hidden="true">
+            </a>
+        </nav>
+    </header>
 
-    <!-- main -->
-    <main>
-        <div class="container">
-            <div>
-                <h2 id="main-header" >SERVING DEMON SLAYER CHARACTER FACTS</h3>
-                <h3 id="main-content">Designed for developers and fans, the Demon Slayer API provides access to a collection of character facts from the popular anime and manga series, Demon Slayer: Kimetsu no Yaiba.</h2>
+    <main id="main-content">
+        <section class="masthead" aria-labelledby="page-title">
+            <div class="container masthead-shell">
+                <p class="masthead-kicker">REST API • No Auth Required</p>
+                <h1 id="page-title">Demon Slayer API</h1>
             </div>
-            <div>
-                <img id="siblings" src="assets/tanjiro-nezuko.png" alt="Demon Slayer main character Tanjiro, carrying his sister Nezuko in her basket on his back.">
+        </section>
+
+        <section class="intro-section">
+            <div class="container intro-grid">
+                <div class="intro-copy">
+                    <p class="eyebrow">Designed for developers and fans</p>
+                    <h2>Demon Slayer API</h2>
+                    <p class="intro-text">The Demon Slayer API provides access to a collection of character facts from the popular anime and manga series, Demon Slayer: Kimetsu no Yaiba.</p>
+                    <div class="endpoint-pills" aria-label="Available endpoint examples">
+                        <code>GET /api</code>
+                        <code>GET /api/:name</code>
+                        <code>GET /api/race/human</code>
+                        <code>GET /api/race/demon</code>
+                    </div>
+                </div>
+
+                <figure class="featured-image">
+                    <img src="/assets/tanjiro-nezuko.png" alt="Tanjiro carrying Nezuko in her basket.">
+                </figure>
             </div>
-        </div>    
+        </section>
+
+        <section class="try-section">
+            <div class="container">
+                <section class="try-panel" aria-labelledby="demo-title">
+                    <div class="section-heading">
+                        <p class="eyebrow">Try it</p>
+                        <h2 id="demo-title">Search the API</h2>
+                    </div>
+
+                    <label class="search-label" for="character-search">Enter a character name...</label>
+                    <div class="search-row">
+                        <input id="character-search" type="text" placeholder="tanjiro, nezuko, rengoku" name="characterName" value="" autocomplete="off">
+                        <button id="search-btn" class="primary-btn" type="button">
+                            <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+                            <span>Search</span>
+                        </button>
+                        <button id="reset-btn" class="icon-btn" type="button" aria-label="Clear results" title="Clear results">
+                            <i class="fa-solid fa-rotate-left" aria-hidden="true"></i>
+                            <span>Reset</span>
+                        </button>
+                    </div>
+
+                    <div class="result" aria-live="polite">
+                        <ul id="character-list"></ul>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <section id="documentation" class="docs-section">
+            <div class="container">
+                <div class="section-heading">
+                    <p class="eyebrow">Documentation</p>
+                    <h2>Endpoints</h2>
+                    <p>All responses include the original character facts plus <code>essenceCard</code> and <code>essenceCardAlt</code> fields for local PNG assets.</p>
+                </div>
+
+                <div class="endpoint-list" aria-label="API endpoints">
+                    <article class="endpoint-card">
+                        <div>
+                            <span class="method">GET</span>
+                            <code>/api</code>
+                        </div>
+                        <p>Returns facts for all characters.</p>
+                    </article>
+
+                    <article class="endpoint-card">
+                        <div>
+                            <span class="method">GET</span>
+                            <code>/api/:name</code>
+                        </div>
+                        <p>Returns matching characters by name. Example: <code>/api/tanjiro</code></p>
+                    </article>
+
+                    <article class="endpoint-card">
+                        <div>
+                            <span class="method">GET</span>
+                            <code>/api/race/human</code>
+                        </div>
+                        <p>Returns all human characters.</p>
+                    </article>
+
+                    <article class="endpoint-card">
+                        <div>
+                            <span class="method">GET</span>
+                            <code>/api/race/demon</code>
+                        </div>
+                        <p>Returns all demon characters.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <!-- Documentation -->
-    <section id="documentation" class="container">
-        <h3 id="overview">Overview:</h3>
-        <p> This is a REST API in which each character object provides Demon Slayer character facts such as name, race, affiliation, and a featured character quote.  </p>
-        
-     <!-- Endpoints -->
-        <h3 id="endpoints-title">Endpoints</h3>
-        <div id="api-endpoint-1">
-            <h4>&#x2022; Base URL</h4>
-            <pre><code>GET https://demon-slayer-api-9c6c.onrender.com/api/</code></pre>  
-            <p>Serves facts for all characters.</p>
+    <footer>
+        <div class="container footer-shell">
+            <p>Demon Slayer Character API</p>
+            <a class="github-link" href="https://github.com/gwendolyn954/demon-slayer-api" aria-label="View GitHub repository" title="View GitHub repository" rel="noreferrer">
+                <img src="/assets/github-icon.png" alt="" aria-hidden="true">
+            </a>
         </div>
-        <div id="api-endpoint-2">
-            <h4>&#x2022; /name</h4>
-            <pre><code>GET https://demon-slayer-api-9c6c.onrender.com/api/name</code></pre>
-            <p>Serves specific character facts. Replace <span>/name</span> with a character name.</p>
-        </div>
-        <div id="api-endpoint-3">
-            <h4>&#x2022; /race/human</h4>
-            <pre><code>GET https://demon-slayer-api-9c6c.onrender.com/api/race/human</code></pre>
-            <p>Serves all human characters.</p>
-        </div>
-        <div id="api-endpoint-4">
-            <h4>&#x2022; /race/demon</h4>
-            <pre><code>GET https://demon-slayer-api-9c6c.onrender.com/api/race/demon</code></pre>
-            <p>Serves all demon characters.</p>
-        </div>
-    
-        <!--Authentication Note -->
-        <h3 id="authentication">Authentication</h3>
-        <p>To access the Demon Slayer API, no authentication or API key is required. This API is publicly accessible for fetching character information.</p>
-    </section>
-
-    <!-- Demo -->
-    <section id="demo" class="container">
-        <h3>Demo:</h3>
-        <label>
-            <h4>Enter Your Favorite Demon Slayer Character Name!</h4>
-            <br>
-            <input type="text" placeholder="Enter Character Name" name="characterName" value=""/>
-        </label>
-        <button id="search-btn" type="button">SEARCH</button>
-        <button id="reset-btn" type="button" onclick="window.location.reload()">RESET</button>
-    
-        <div class="result">
-            <ul id="character-list"></ul>
-        </div>
-    </section>
-
-    <!-- footer -->
-   <footer>
-        <p id="footer-header" >DEMON SLAYER API</p>
-        <p>Thanks for checking out the Demon Slayer API!</p>
-        <div id="socials">
-            <a href="https://github.com/gwendolyn954/demon-slayer-api">Visit the Demon Slayer API repo<i class="fa-brands fa-github fa-xl" style="color: #000000;"></i></a>
-        </div>
-   </footer>
+    </footer>
 
     <script src="/js/main.js"></script>
 </body>
 </html>
-
-

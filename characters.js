@@ -41,7 +41,7 @@ const characters = [
         race: 'Demon',
         affiliation: 'Twelve Kizuki',
         skill: 'Whip Proficiency, Biokinesis',
-        quote: "Does my complexion look unhealthy to you? Is my face pale? Do I look sickly to you? Do I look like I'm not long for this world? Do I look like I'm about to die? Wrong, wrong, wrong, wrong. I'm a living being who's infinitely close to perfection."
+        quote: "I'm a living being who's infinitely close to perfection."
     },
 
     {
@@ -104,7 +104,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Mist Breathing',
-        quote: "Just like master said, if you recover your confidence... you can dig in with both feet and use your full strength. If you know who you are then no demon can run when you bring down a blade that knows no hesitation or confusion."
+        quote: "If you know who you are, then no demon can run when you bring down a blade that knows no hesitation or confusion."
     },
 
     {
@@ -113,7 +113,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Insect Breathing',
-        quote: "How can you feel sorry for something that's killed humans? I've never heard of anything so absurd. But if that was how my sister truly felt, then I must carry it on. If there's a way not to kill these pitiful demons, I have to keep trying to come up with it. Without ever extinguishing the smile my sister said she loved.."
+        quote: "How can you feel sorry for something that's killed humans? I've never heard of anything so absurd."
     },
 
     {
@@ -122,7 +122,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Flame Breathing',
-        quote: "Life is a series of decisions. You never have unlimited options or unlimited time to think, but what you choose in that instant defines who you are. Warriors who strive to save other people's lives are precious..."
+        quote: "Life is a series of decisions."
     },
 
     {
@@ -150,7 +150,7 @@ const characters = [
         race: 'Demon',
         affiliation: 'Twelve Kizuki, Spider Family',
         skill: 'Thread Manipulation',
-        quote: "I couldn't bear the weight of what I'd done. Even knowing that I only had myself to blame... Every single day..."
+        quote: "I couldn't bear the weight of what I'd done."
 
     },
 
@@ -160,7 +160,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'none',
-        quote: "I know what eternity is. Eternity is human feeling. Only human feelings last forever and are undying."
+        quote: "Only human feelings last forever and are undying."
     },
 
     {
@@ -223,7 +223,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Thunder Breathing',
-        quote: "Compassion can make a person's heart infinitely tough. A sword that you swing for the sake of others can have power that is immense. You must become that kind of person."
+        quote: "Compassion can make a person's heart infinitely tough."
     },
 
 
@@ -233,7 +233,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Flame Breathing',
-        quote: "Go ahead and live with your head held high. No matter how devastated you may be by your own weakness or uselessness, set your heart ablaze..."
+        quote: "Go ahead and live with your head held high."
     },
 
     {
@@ -242,7 +242,7 @@ const characters = [
         race: 'Human',
         affiliation: 'Demon Slayer Corps',
         skill: 'Sound Breathing',
-        quote: "I want you three to only think about your lives. Above all else, your top priority is to come back to me..."
+        quote: "Above all else, your top priority is to come back to me..."
     },
 
     {
@@ -678,4 +678,23 @@ const characters = [
     },
 ]
 
-exports.characters = characters;
+function slugifyCharacterName(name) {
+    return name
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-|-$/g, '');
+}
+
+function addEssenceCardData(character) {
+    const characterName = character.name.trim();
+    const slug = slugifyCharacterName(characterName);
+
+    return {
+        ...character,
+        essenceCard: `/images/essence-cards/${slug}.png`,
+        essenceCardAlt: `Symbolic Essence Card for ${characterName} featuring original symbolic artwork inspired by personality, role, powers, motifs, and story essence.`
+    };
+}
+
+exports.characters = characters.map(addEssenceCardData);
