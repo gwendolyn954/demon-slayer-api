@@ -19,7 +19,7 @@ Express, Node.js, JavaScript, CSS, EJS
 Check out the Demon Slayer API demo [here]( https://demon-slayer-api-9c6c.onrender.com/).  
 
 > [!NOTE]
-> Demon Slayer API uses Render's free tier service, which spins down after 15 minutes of inactivity.  Initial requests can take around 30 seconds to wake up but I've found that it takes about 13 seconds.
+> Demon Slayer API uses Render's free tier service, which spins down after 15 minutes of inactivity.  Initial requests can take around 30-45 seconds to wake up.
 
 ## Endpoints
 The API provides the following endpoints to retrieve character facts:
